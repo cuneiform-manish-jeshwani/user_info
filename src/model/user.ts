@@ -4,7 +4,8 @@ interface Userdata extends Document{
 
     firstname: string;
     lastname: string;
-    profile_picture: string;
+    //profile_data: String;
+   image:string
     audio: string;
     address: string;
     pincode: number;
@@ -23,14 +24,15 @@ const userschema = new mongoose.Schema<Userdata>({
         required:true
     },
 
-    profile_picture:{
+    image:{
         type:String,
-        required:true
+        
     },
 
+  
     audio:{
         type:String,
-        required:true
+        
     },
 
     address:{

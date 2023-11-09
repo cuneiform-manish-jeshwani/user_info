@@ -174,9 +174,9 @@
 
 
 // // for update user
-// // export const updateUser =async (req:Request, res:Response) => {
+// export const updateUser =async (req:Request, res:Response) => {
 
-// //     const userId = req.params.id
+//     const userId = req.params.id
     
 
 // //     upload(req, res, async (err) => {
@@ -197,20 +197,20 @@
 
 // //       const audio = `http:localhost:3000/api/user/${path.basename(audios)}`
 
-// //       const user = await User.updateOne({ id: userId }).set({
-// //         firstname,
-// //         lastname,
-// //         profile_picture,
-// //         audio,
-// //         address,
-// //         pincode,
-// //         company_name,
-// //       });
-// //       res.status(201).json(user);
-// //     } catch (error) {
-// //       res.status(500).json({ error: 'Failed to update user' });
-// //     }
-// //   });
+//       const user = await User.updateOne({ id: userId }).set({
+//         firstname,
+//         lastname,
+//         profile_picture,
+//         audio,
+//         address,
+//         pincode,
+//         company_name,
+//       });
+//       res.status(201).json(user);
+//     } catch (error) {
+//       res.status(500).json({ error: 'Failed to update user' });
+//     }
+//   });
     
 // // }
 
